@@ -31,8 +31,8 @@ export default function Avatar({ autoRotate = true }) {
     <primitive
       ref={group}
       object={scene}
-      scale={120} // increased size
-      position={[0, -200, 0]} // centered model vertically
+      scale={10} // increased size
+      position={[0, -20, 0]} // centered model vertically
     />
   );
 }

@@ -90,3 +90,35 @@
 .name{
   color: rgb(0, 238, 255);
 }
+
+.avatar-con canvas {
+  position: fixed;
+  /* top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; */
+  pointer-events: none; /* optional so user can’t interact with it*/
+} 
+
+.canvas-container {
+  position: fixed; /* stays as background */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* behind all content */
+}
+
+.section {
+  height: 100vh;
+  
+}
+
+.content{
+  margin-top: 6%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
